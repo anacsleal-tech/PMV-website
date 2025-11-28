@@ -240,9 +240,6 @@ ul li strong {
 .contact-block p,
 .company-block p {
   margin-bottom: 0.75rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
 }
 
 .contact-block p:last-child,
@@ -326,6 +323,7 @@ footer a:hover {
 
   h2::after {
     left: 50%;
+    margin-left: 0;
     transform: translateX(-50%);
   }
 
